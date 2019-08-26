@@ -1,18 +1,22 @@
-  .wrap{   
-    height: 1650px;
-   width: 943px;
-    margin: 0 auto;
-    border-radius: 10px;
-  }
-  h1, h2{color: white;margin: 20px 0;}
-  .product-box{
-    width: 465px;   
-    margin: 0px;
-  }
-  .product-box img{
-    width: 440px;
-  }
-  .products-box{height: 365px;}
+.navigation-box{
+  background-color: white;
+  border: 10px solid #ffdc7c;
+  padding: 10px;
+  width: 930px;
+  height: 150px;
+  margin: 0 90px 18px 75px;
+}
+.navigation-box div{
+  border: 5px solid #ffdc7c;
+  width: 890px;
+  height: 110px;
+}
+.navigation-box h2{
+  font-size: 60px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
  #dialog-overlay1 {
 
   /* set it to fill the whil screen */
@@ -47,7 +51,7 @@
   
   background:#eee;
   /* styling of the dialog box, i have a fixed dimension for this demo */ 
-  width:850px; 
+  width:950px; 
   
   
   /* make sure it has the highest z-index */
@@ -61,7 +65,7 @@
 
 #dialog-box1 #dialog-content1 {
   /* style the content */
-  max-height: 1200px;
+  max-height: 600px;
   overflow: hidden;
   text-align:left; 
   padding:10px; 
@@ -119,6 +123,8 @@ a.button:hover {
   padding:0; 
   height:50px;
 }
+#dialog-content1 #dialog-message{
+margin-left: -70px;}
 .btn-ok{
   position: absolute;
   right: 10px;
@@ -128,22 +134,10 @@ a.button:hover {
   border-radius: 5px;
   margin-top: 5px;
 }
-#myVideo {
-    width: 800px;
-    float: left;
-}
-#playPause{
-      width: 80px;
-    margin-left: 360px;
-}
 
-.video-title{
-      font-size: 60px;
-    color: white;
-    font-weight: bold;
-    width: 419px;
-    margin-top: 57px;
-}
+
 .main-content{
   padding-top: 0;
+  background-color: #005696;
+      height: 1508px;
 }

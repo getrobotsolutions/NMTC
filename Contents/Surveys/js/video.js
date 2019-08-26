@@ -19,8 +19,8 @@ $(document).click(function(event) {
 $(document).ready(function(){
 
    $('a.btn-ok, #dialog-overlay, #dialog-box').click(function () {  
-      var video = document.getElementById("myVideo");  
-      video.pause(); 
+     // var surveyFrame = document.getElementById("");  
+      $('#surveyFrame').attr('src', '');
       $('#dialog-overlay1, #dialog-box1').hide();   
       return false;
     });
@@ -53,7 +53,7 @@ function ShowPopup(src){
   $('#dialog-overlay1').css({height:maskHeight, width:maskWidth}).show();
   $('#dialog-box1').css({top:dialogTop, left:dialogLeft}).show();
   $('#playPause').attr('src','images/play.png');
-  document.getElementById('myVideo').setAttribute('src', src);
+  document.getElementById('surveyFrame').src= src;
     
     //document.getElementById('dialog-content1').innerHTML = '';
   
