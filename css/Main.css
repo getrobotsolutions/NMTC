@@ -70,7 +70,7 @@ footer {
     display: block;
 }
 .navigation-box{
-	background-color: #ffff;
+	background-color: white;
 	
 	border: 10px solid #ffdc7c;
     padding: 20px;
@@ -82,7 +82,7 @@ footer {
 }
 .navigation-icon{
     margin: 5px 0 0 50px;
-    width: 210px;
+    width: 200px;
     float: left;
 }
 .navigation-box div{
