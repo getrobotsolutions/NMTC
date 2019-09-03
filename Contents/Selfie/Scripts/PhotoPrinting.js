@@ -225,7 +225,7 @@ function SendEmail()
     var tempEmail=message;
     //var addr = "paul@robotaisolutions.com";
     var subject = "Your robot selfie";
-    var body = "Please find your photo attached.";
+    var body = "Thank you for visiting the 2019 World of Wine in support of NMTC. We hope to see you next year! In the interim, look at other events of interest at www.nmtc.org or on Facebook @nmtcconnect. Please find your picture attached.";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";
