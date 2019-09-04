@@ -36,24 +36,28 @@ function FC_ContentsCall(strContentsName, strLanguage)
                 location.href = "../../maincontents.htm";
             break;
         case "About":
-            PlaySpeech(speak[0]);
+            
             location.href = "Contents/About/index.html";
+            PlaySpeech(speak[0]);
             break;
         case "Videos":
             //PlaySpeech(speak[1]);
             location.href = "Contents/Videos/index.html";
             break;
         case "Surveys":
-            PlaySpeech(speak[1]);
+            
             location.href = "Contents/Surveys/index.html";
+            PlaySpeech(speak[1]);
             break;
         case "Selfie":
-            PlaySpeech(speak[3]);
+            
             location.href = "Contents/Selfie/index.html";
+            PlaySpeech(speak[3]);
             break;
         case "Avatar":
-            PlaySpeech(speak[4]);
+            
             location.href = "Contents/RobotAvatar/index.htm";
+            PlaySpeech(speak[4]);
             break;
         case "Dance":
             //PlaySpeech(speak[3]);
