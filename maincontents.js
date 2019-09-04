@@ -11,11 +11,11 @@
         jokes[9]="Want to know my favorite dance? It’s the robot";
 
         var speak = new Array( );
-        speak[0] = "";
-        speak[1] = "Click on the video to see more.";
+        speak[0] = "Read more about what we do";
+        speak[1] = "Tell me what drink you liked best";
         speak[2] = "Record a video message and CrownBio will get back to you.";
         speak[3] = "Take-A-Picture with me";
-        speak[4] = "";
+        speak[4] = "Become a robot";
         speak[5] = "Spin my wheel to make me dance!";
 
 //window.external.ChangeLanguage("en-us");
@@ -36,7 +36,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
                 location.href = "../../maincontents.htm";
             break;
         case "About":
-            //PlaySpeech(speak[2]);
+            PlaySpeech(speak[0]);
             location.href = "Contents/About/index.html";
             break;
         case "Videos":
@@ -44,15 +44,15 @@ function FC_ContentsCall(strContentsName, strLanguage)
             location.href = "Contents/Videos/index.html";
             break;
         case "Surveys":
-            //PlaySpeech(speak[5]);
+            PlaySpeech(speak[1]);
             location.href = "Contents/Surveys/index.html";
             break;
         case "Selfie":
-            //PlaySpeech(speak[3]);
+            PlaySpeech(speak[3]);
             location.href = "Contents/Selfie/index.html";
             break;
         case "Avatar":
-            //PlaySpeech(speak[3]);
+            PlaySpeech(speak[4]);
             location.href = "Contents/RobotAvatar/index.htm";
             break;
         case "Dance":
@@ -148,25 +148,25 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Hello, my name is Tracey");//I'm here to assist you, press any button on my screen to begin");
+           // window.external.PlaySpeech("Hello, my name is Tracey");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Take a picture with me");
+        window.external.PlaySpeech("Hi, welcome to NMTC");
         
     }
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Let me tell you a joke");
+            window.external.PlaySpeech("I like you");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-       window.external.PlaySpeech("Want to see me dance?");
+       window.external.PlaySpeech("take a survey");
         
     }
     if(btn_info[4] == '1'){
